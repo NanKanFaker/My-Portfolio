@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoNo's Portfolio</title>
+    <meta name="description" content="我是余昌諺，今年24歲，畢業於銘傳大學數位媒體設計學系，專長於網頁設計與開發，致力於為使用者打造具良好體驗的網站，並結合美觀設計與互動功能">
+    <meta name="google-site-verification" content="NQBWUng42bB5LPwF07swwiVTAOY5w_1heGCOd2boss4" />
+
+    <!-- ==========PRELOAD========== -->
+    <link rel="preload" href="Asset/Images/Home__images/Background.webp" as="image">
+    <link rel="preload" href="Asset/Images/Home__images/Computer.webp" as="image">
+    <link rel="preload" href="Asset/Images/Home__images/Document.webp" as="image">
+    <link rel="preload" href="Asset/Images/Home__images/phone.webp" as="image">
+    <link rel="preload" href="Asset/Images/Home__images/cloud.webp" as="image">
+    <link rel="preload" href="Asset/Images/Home__images/mouse.webp" as="image">
+
+    <!-- ==========FAVICON========== -->
+    <link rel="icon" type="image/png" href="Asset/Images/Favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="Asset/Images/Favicon/favicon.svg" />
+    <link rel="shortcut icon" href="Asset/Images/Favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="Asset/Images/Favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="Asset/Images/Favicon/site.webmanifest" />
+
+    <!-- ==========REMIXICON========== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+    <!-- ==========CSS========== -->
+    <link rel="stylesheet" href="Asset/CSS/main.css">
+
+</head>
+
+<body>
+    <!-- ==========HEADER========== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="Asset/Images/Logo/logo.png" alt="Logo">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#home" class="nav__link">首頁</a>
+                    </li>
+
+                    <li>
+                        <a href="#work" class="nav__link">作品</a>
+                    </li>
+
+                    <li>
+                        <a href="#info" class="nav__link">關於我</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="nav__link">聯繫我</a>
+                    </li>
+                </ul>
+
+                <!-- Close Button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!-- Toggle Button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ==========MAIN========== -->
+    <main class="main">
+        <!-- ==========HOME========== -->
+        <section class="home section" id="home">
+            <img src="Asset/Images/Home__images/Background.webp" alt="background image" loading="eager"
+                class="home__bg">
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">Web Designer </br>& Developer</h1>
+                    <h2 class="home__subtitle">設計簡單、實用且吸引人心的網站</h2>
+
+                    <!-- Button -->
+                    <a href="#work" class="home__button button" id="home-button">MY WORK</a>
+
+                    <img src="Asset/Images/Home__images/mouse.webp" alt="mouse" loading="eager" class="home__mouse">
+
+
+                </div>
+
+                <div class="home__images">
+                    <img src="Asset/Images/Home__images/Computer.webp" alt="Computer" loading="eager"
+                        class="home__computer home__img">
+                    <img src="Asset/Images/Home__images/Document.webp" alt="Document" loading="eager"
+                        class="home__document home__img">
+                    <img src="Asset/Images/Home__images/phone.webp" alt="Phone" loading="eager"
+                        class="home__phone home__img">
+                    <img src="Asset/Images/Home__images/cloud.webp" alt="cloud" loading="eager"
+                        class="home__cloud home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://codepen.io/BaGaNoNo" target="_blank" class="home__social-link">
+                        <i class="ri-codepen-fill"></i>
+                    </a>
+
+                    <a href="https://www.youtube.com/@nono-t6p3n" target="_blank" class="home__social-link">
+                        <i class="ri-youtube-line"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========WORK========== -->
+        <section class="work section" id="work">
+            <h2 class="section__title">Work</h2>
+
+            <div class="work__container container grid">
+                <article class="work__card">
+                    <h3 class="work__title">Ben's Portfolio</h3>
+
+                    <p class="work__description">這是我的另一個Portfolio作品，針對需求嘗試了不同的風格，並且搭配了許多的動畫效果。</p>
+
+                    <a href="https://portfolio-ben-ben-ben.netlify.app/" target="_blank" class="work__image">
+                        <img src="Asset/Images/Work__images/Ben's Portfolio.png" alt="Ben's Portfolio"
+                            class="work__img">
+
+                        <div class="work__icon">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="work__card">
+                    <h3 class="work__title">Shopping Cart</h3>
+
+                    <p class="work__description">這是一個基於 Public API 開發的小型購物網站，具備完整的購物車功能，目前持續優化與擴展內容。</p>
+
+                    <a href="https://shopping-cart-by-nono.netlify.app/" target="_blank" class="work__image">
+                        <img src="Asset/Images/Work__images/Shopping Cart.webp" alt="Shopping Cart Website"
+                            class="work__img">
+
+                        <div class="work__icon">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <!-- ==========INFO========== -->
+        <section class="info section" id="info">
+            <h2 class="section__title">about</h2>
+
+            <div class="info__container container grid">
+                <div class="info__data grid">
+                    <img src="Asset/Images/Info__images/portrait.png" alt="My Portrait" class="info__portrait">
+
+                    <div class="info__content grid">
+                        <p class="info__description">Hi!我是余昌諺，畢業於銘傳大學數位媒體設計學系，專長於網頁設計與開發，致力於為使用者打造具良好體驗的網站，並結合美觀設計與互動功能
+                        </p>
+
+                        <a href="#contact" class="info__button button">Contact Me</a>
+                    </div>
+                </div>
+
+                <div class="info__skills">
+                    <h2 class="skills__title">Skills</h2>
+
+                    <div class="skills__content">
+                        <div class="skills__box">
+                            <img src="Asset/Images/Info__images/photoshop.svg" alt="Photoshop Icon" class="skills__img">
+                            <span class="skills__name">PS</span>
+                        </div>
+                        <div class="skills__box">
+                            <img src="Asset/Images/Info__images/figma.svg" alt="Figma Icon" class="skills__img">
+                            <span class="skills__name">Figma</span>
+                        </div>
+                        <div class="skills__box">
+                            <img src="Asset/Images/Info__images/html5.svg" alt="HTML Icon" class="skills__img">
+                            <span class="skills__name">HTML</span>
+                        </div>
+                        <div class="skills__box">
+                            <img src="Asset/Images/Info__images/css_old.svg" alt="CSS Icon" class="skills__img">
+                            <span class="skills__name">CSS</span>
+                        </div>
+                        <div class="skills__box">
+                            <img src="Asset/Images/Info__images/javascript.svg" alt="JS Icon" class="skills__img">
+                            <span class="skills__name">JS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========SERVICES========== -->
+        <section class="service section" id="service">
+            <h2 class="section__title">what can i do</h2>
+
+            <div class="service__container container grid">
+                <div class="service__box">
+                    <span class="service__subtitle">01</span>
+                    <h3 class="service__title">UI/UX</h3>
+                    <p class="service__description">設計直觀且富有風格與美感的介面，規劃流暢且完善的用戶體驗，並根據不同需求與目標，打造專屬的客製化網頁。</p>
+                </div>
+
+                <div class="service__box">
+                    <span class="service__subtitle">02</span>
+                    <h3 class="service__title">Development</h3>
+                    <p class="service__description">結合設計與開發，縮減設計師與開發者之間的溝通差距，具備將創意與構想轉化為現實的能力。</p>
+                </div>
+
+                <div class="service__box">
+                    <span class="service__subtitle">03</span>
+                    <h3 class="service__title">Responsive</h3>
+                    <p class="service__description">打造自適應設計，確保網站在各種裝置上都能完美呈現，無論是手機、平板還是桌面電腦，都能根據螢幕尺寸智能調整版面。</p>
+                </div>
+
+                <div class="service__box">
+                    <span class="service__subtitle">04</span>
+                    <h3 class="service__title">Interactive</h3>
+                    <p class="service__description">利用JavaScript提升網站的互動性與動態效果，將靜態頁面轉變為生動的互動式體驗，從而提升網站的功能性與使用者體驗。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========CONTACT========== -->
+        <section class="contact section" id="contact">
+            <div class="contact__titles">
+                <!-- Lottie Email Container-->
+                <div class="lottie__email" id="lottie-email"></div>
+                <h2 class="section__title">Contact</h2>
+            </div>
+
+            <div class="contact__container container">
+                <form action="" class="contact__form grid" id="contact-form">
+                    <div class="contact__content grid">
+                        <div class="contact__box">
+                            <input type="text" name="user_name" placeholder="" required id="name"
+                                class="contact__input">
+                            <label for="name" class="contact__label">Name</label>
+
+                            <i class="ri-account-box-fill contact__icon"></i>
+                        </div>
+
+                        <div class="contact__box">
+                            <input type="email" name="user_email" placeholder="" required id="email"
+                                class="contact__input">
+                            <label for="email" class="contact__label">Email</label>
+
+                            <i class="ri-mail-fill contact__icon"></i>
+                        </div>
+
+                        <textarea name="user_message" required placeholder="Message"
+                            class="contact__textarea"></textarea>
+                    </div>
+
+                    <button type="submit" class="contact__button button">Submit</button>
+
+                    <p class="contact__message" id="contact-message"></p>
+                </form>
+
+                <!-- Lottie sendEmail Container -->
+                <div class="lottie__sendEmail" id="lottie-sendEmail"></div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ==========FOOTER========== -->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <ul class="footer__links">
+                <li>
+                    <a href="#home" class="footer__link">首頁</a>
+                </li>
+
+                <li>
+                    <a href="#work" class="footer__link">作品</a>
+                </li>
+
+                <li>
+                    <a href="#info" class="footer__link">關於我</a>
+                </li>
+            </ul>
+
+            <div class="footer__resource">
+                Images by
+                <a href="https://www.freepik.com/" class="footer__resource-link" target="_blank">Freepik</a>
+                and
+                <a href="https://svgl.app/" class="footer__resource-link" target="_blank">Svgl</a>
+                and
+                <a href="https://lottiefiles.com/" class="footer__resource-link" target="_blank">LottieFiles</a>
+                .
+            </div>
+
+            <span class="footer__right">© 余昌諺 2025 . All right reserved.</span>
+        </div>
+    </footer>
+
+    <!-- ==========SCROLL UP========== -->
+    <a href="#" class="scroll__up" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!-- ==========CURSOR========== -->
+    <div class="cursor cursor__large" id='cursor-large'></div>
+    <div class="cursor cursor__small" id='cursor-small'></div>
+
+
+
+    <!-- ==========GSAP========== -->
+    <script src="Asset/JS/gsap.min.js"></script>
+
+    <!-- ==========LOTTIE========== -->
+    <script src="Asset/JS/lottie.min.js"></script>
+
+    <!-- ==========EMAIL JS========== -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- ==========SCROLLREVEAL========== -->
+    <script src="Asset/JS/scrollreveal.min.js"></script>
+
+    <!-- ==========MAIN JS========== -->
+    <script src="Asset/JS/main.js"></script>
+
+</body>
+
+</html>
